@@ -1,0 +1,56 @@
+:root {
+    --main-color: rgb(44 162 44);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00203A;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    max-width: 700px;
+}
+
+.box h3 {
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+.box .value {
+    width: 90%;
+    border: solid 1px var(--main-color);
+}
+
+.value input {
+    border: none;
+    outline: none;
+    color: #00203A;
+    font-weight: 700;
+}
+
+.value svg {
+    margin-right: 11px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--main-color);
+    border: none;
+    outline: none;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+button svg {
+    margin-right: 9px;
+    color: #fff;
+}

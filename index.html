@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi</title>
+</head>
+
+<body>
+    <div class="pass text-center ">
+        <div class="container">
+            <div class="box shadow-lg p-3 mb-5 bg-body rounded">
+                <h3 class="pt-4">Generate Random Strong Password</h3>
+                <div class="value d-flex align-items-center m-auto mb-5">
+                    <input type="text" placeholder="Random Password" id="password" class="w-100 p-3">
+                    <i class="fa-regular fa-clone" onclick="copy()"></i>
+                </div>
+                <button class="rounded p-3" onclick="createRandom()"><i class="fa-solid fa-bolt"></i>Generate Password</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
